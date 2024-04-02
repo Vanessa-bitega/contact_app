@@ -1,7 +1,7 @@
 // Contact routes here// Contact routes here
 
 import express from 'express';
-import contactController from("../controllers/contact.controller.js");
+import contactController from "../controllers/contact.controller.js";
 const router= express.Router();
 
 

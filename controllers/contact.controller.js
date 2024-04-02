@@ -1,7 +1,7 @@
 // Contact controllers here// Contact controllers here
 
 // Import necessary modules
-import Contact from ('../models/contact.model.js');
+import Contact from '../models/contact.model.js';
 
 // Controller methods
 const contactController = {
@@ -22,7 +22,7 @@ const contactController = {
 
   // Create a new contact
   createContact: async (req, res) => {
-    const newContact = new Contact(req.body);
+      const newContact = new Contact(req.body);
       const savedContact = await newContact.save();
       res.status(201).json(savedContact);
   },
