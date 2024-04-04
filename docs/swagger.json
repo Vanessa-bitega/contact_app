@@ -154,7 +154,7 @@
                     }
                   }
                 },
-                "post":{
+                "get":{
                     "summary": "Get a contact by ID",
                     "description": "Get a contact by ID",
                     "tags": ["Contacts"],
